@@ -315,3 +315,34 @@ nav a:hover{
 }
 
 /* updated portfolio design */
+
+/* HOBBIES */
+
+.hobbies{
+    margin-top:50px;
+}
+
+.hobbies h3{
+    color:#d4af37;
+    margin-bottom:20px;
+}
+
+.hobby-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.hobby-tags span{
+    padding:12px 20px;
+    border-radius:30px;
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(212,175,55,0.3);
+    transition:0.3s;
+}
+
+.hobby-tags span:hover{
+    background:#d4af37;
+    color:black;
+    transform:translateY(-5px);
+}
